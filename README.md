@@ -17,7 +17,7 @@ A responsive calculator with a glassmorphism-inspired interface and interactive 
 
 **Technologies:** HTML5, CSS3, JavaScript
 
-[View Calculator source](./index.html)
+[View Calculator source](./calculator/index.html) · [View Calculator README](./calculator/README.md)
 
 ### 2. Responsive Image Gallery
 
@@ -34,16 +34,19 @@ A responsive image gallery with category filtering, image previews, and interact
 
 **Technologies:** HTML5, CSS3, JavaScript
 
-[View Image Gallery source](./image-gallery/index.html)
+[View Image Gallery source](./image-gallery/index.html) · [View Image Gallery README](./image-gallery/README.md)
 
 ## Repository Structure
 
 ```text
 frontend-mini-projects/
-├── index.html                  # Calculator
-├── image-gallery/
-│   └── index.html              # Responsive Image Gallery
-└── README.md
+├── README.md
+├── calculator/
+│   ├── index.html              # Calculator application
+│   └── README.md               # Calculator documentation
+└── image-gallery/
+    ├── index.html              # Responsive Image Gallery
+    └── README.md               # Image Gallery documentation
 ```
 
 ## Getting Started
@@ -58,7 +61,7 @@ No installation, build tools, or backend are required.
 
 2. Open the project folder in VS Code or your preferred editor.
 3. Open the relevant `index.html` file in a web browser:
-   - Calculator: repository root `index.html`
+   - Calculator: `calculator/index.html`
    - Image Gallery: `image-gallery/index.html`
 
 ## What This Repository Demonstrates
@@ -72,7 +75,7 @@ No installation, build tools, or backend are required.
 
 ## Future Improvements
 
-- Add individual project documentation and screenshots
+- Add screenshots and live demos
 - Improve accessibility and keyboard support
 - Add more frontend mini-projects
 - Deploy the projects so they can be viewed online
