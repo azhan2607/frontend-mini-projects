@@ -27,25 +27,22 @@ A browser-based calculator with a glassmorphism interface, built using HTML, CSS
    git clone https://github.com/azhan2607/frontend-mini-projects.git
    ```
 
-2. Open the repository folder:
+2. Open the calculator folder:
 
    ```bash
-   cd frontend-mini-projects
+   cd frontend-mini-projects/calculator
    ```
 
-3. Open the root-level `index.html` file in your browser, or use the Live Server extension in Visual Studio Code.
+3. Open `index.html` in your browser, or use the Live Server extension in Visual Studio Code.
 
 No build tools or package installation are required.
 
 ## Project Structure
 
-The calculator source file currently lives at the repository root:
-
 ```text
-frontend-mini-projects/
-├── index.html          # Calculator application
-└── calculator/
-    └── README.md       # This documentation
+calculator/
+├── index.html
+└── README.md
 ```
 
 ## Possible Improvements
