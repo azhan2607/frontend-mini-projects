@@ -1,39 +1,54 @@
-# 🧮 Calculator Web Application
+# Frontend Mini Projects
 
-A simple and interactive **frontend calculator** built using HTML, CSS, and JavaScript. It allows users to perform basic arithmetic operations through a clean and user-friendly web interface.
+A collection of beginner-friendly frontend projects built with **HTML, CSS, and JavaScript**. This repository showcases interactive browser-based applications and practical frontend development concepts.
 
-## 🚀 About the Project
+## Projects
 
-This project demonstrates the fundamentals of frontend web development by combining HTML structure, CSS styling, and JavaScript functionality in a single HTML file.
+### 1. Calculator
 
-The calculator allows users to perform basic mathematical operations directly in the browser.
+A responsive calculator with a glassmorphism-inspired interface and interactive controls.
 
-## ✨ Features
+**Features**
+- Addition, subtraction, multiplication, and division
+- Percentage calculation
+- Clear and delete controls
+- Keyboard input support
+- Animated particle background
 
-- Addition
-- Subtraction
-- Multiplication
-- Division
-- Clear functionality
-- Interactive calculator interface
-- Instant calculation results
+**Technologies:** HTML5, CSS3, JavaScript
 
-## 🛠️ Technologies Used
+[View Calculator source](./index.html)
 
-- **HTML5:** Application structure.
-- **CSS3:** Styling and interface design.
-- **JavaScript:** Calculator functionality and user interactions.
+### 2. Responsive Image Gallery
 
-## 📂 Project Structure
+A responsive image gallery with category filtering, image previews, and interactive navigation.
+
+**Features**
+- Responsive CSS Grid layout
+- Category filters for Nature, City, and Animals
+- Hover effects and image captions
+- Lightbox image preview
+- Previous and next image navigation
+- Keyboard navigation with arrow keys and Escape
+- Animated mouse-following effect
+
+**Technologies:** HTML5, CSS3, JavaScript
+
+[View Image Gallery source](./image-gallery/index.html)
+
+## Repository Structure
 
 ```text
-calculator/
-│
-├── index.html
+frontend-mini-projects/
+├── index.html                  # Calculator
+├── image-gallery/
+│   └── index.html              # Responsive Image Gallery
 └── README.md
 ```
 
-## 💻 How to Run
+## Getting Started
+
+No installation, build tools, or backend are required.
 
 1. Clone the repository:
 
@@ -41,30 +56,28 @@ calculator/
    git clone https://github.com/azhan2607/frontend-mini-projects.git
    ```
 
-2. Open the repository folder.
-3. Open `index.html` in your web browser.
-4. Start using the calculator.
+2. Open the project folder in VS Code or your preferred editor.
+3. Open the relevant `index.html` file in a web browser:
+   - Calculator: repository root `index.html`
+   - Image Gallery: `image-gallery/index.html`
 
-**No backend, database, or external dependencies required.**
+## What This Repository Demonstrates
 
-## 🎯 Learning Outcomes
+- Semantic HTML and page structure
+- Responsive layouts with CSS
+- JavaScript event handling and DOM manipulation
+- Interactive UI components
+- Basic project organization
+- Git and GitHub version control
 
-- Understanding HTML structure.
-- Implementing CSS styling.
-- JavaScript fundamentals.
-- DOM manipulation and event handling.
-- Building interactive frontend applications.
-- Managing projects using Git and GitHub.
+## Future Improvements
 
-## 🔮 Future Enhancements
+- Add individual project documentation and screenshots
+- Improve accessibility and keyboard support
+- Add more frontend mini-projects
+- Deploy the projects so they can be viewed online
 
-- Keyboard input support
-- Calculation history
-- Dark and light themes
-- Advanced mathematical operations
-- Improved error handling
-
-## 👨‍💻 Author
+## Author
 
 **Faiz Ahmed**
 
@@ -73,6 +86,4 @@ calculator/
 
 ---
 
-⭐ Thanks for checking out my project!
-
-**Built with HTML, CSS & JavaScript.**
+If you find these projects useful, feel free to explore the source code and share feedback.
